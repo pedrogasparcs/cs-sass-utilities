@@ -1,6 +1,6 @@
 {
   "name": "cs-sass-utilities",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Codistage Sass Utilities",
   "main": "index.js",
   "scripts": {
