@@ -1,0 +1,24 @@
+{
+  "name": "cs-sass-utilities",
+  "version": "1.0.0",
+  "description": "Codistage Sass Utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrogasparcs/cs-sass-utilities.git"
+  },
+  "keywords": [
+    "sass",
+    "utilities",
+    "codistage"
+  ],
+  "author": "Pedro Gaspar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrogasparcs/cs-sass-utilities/issues"
+  },
+  "homepage": "https://github.com/pedrogasparcs/cs-sass-utilities#readme"
+}
