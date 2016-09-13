@@ -16,7 +16,7 @@
     "codistage"
   ],
   "author": "Pedro Gaspar",
-  "license": "ISC",
+  "license": "GNU GPLv3",
   "bugs": {
     "url": "https://github.com/pedrogasparcs/cs-sass-utilities/issues"
   },
