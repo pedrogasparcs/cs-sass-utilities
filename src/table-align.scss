@@ -1,3 +1,19 @@
+/*
+
+Available classes (when applied to tables):
+
+xs-align-right
+sm-align-right
+md-align-right
+lg-align-right
+
+xs-align-center
+sm-align-center
+md-align-center
+lg-align-center
+
+*/
+
 @mixin table-align-right () {
   margin-left: auto;
   margin-right: 0;
@@ -6,39 +22,42 @@
   margin-left: auto;
   margin-right: auto;
 }
-&.xs-align-right {
-  @include table-align-right();
-}
-&.sm-align-right {
-  @media (min-width:$small-breakpoint) {
+
+table {
+  &.xs-align-right {
     @include table-align-right();
   }
-}
-&.md-align-right {
-  @media (min-width:$medium-breakpoint) {
-    @include table-align-right();
+  &.sm-align-right {
+    @media (min-width:$small-breakpoint) {
+      @include table-align-right();
+    }
   }
-}
-&.lg-align-right {
-  @media (min-width:$large-breakpoint) {
-    @include table-align-right();
+  &.md-align-right {
+    @media (min-width:$medium-breakpoint) {
+      @include table-align-right();
+    }
   }
-}
-&.xs-align-center {
-  @include table-align-center();
-}
-&.sm-align-center {
-  @media (min-width:$small-breakpoint) {
+  &.lg-align-right {
+    @media (min-width:$large-breakpoint) {
+      @include table-align-right();
+    }
+  }
+  &.xs-align-center {
     @include table-align-center();
   }
-}
-&.md-align-center {
-  @media (min-width:$medium-breakpoint) {
-    @include table-align-center();
+  &.sm-align-center {
+    @media (min-width:$small-breakpoint) {
+      @include table-align-center();
+    }
   }
-}
-&.lg-align-center {
-  @media (min-width:$large-breakpoint) {
-    @include table-align-center();
+  &.md-align-center {
+    @media (min-width:$medium-breakpoint) {
+      @include table-align-center();
+    }
+  }
+  &.lg-align-center {
+    @media (min-width:$large-breakpoint) {
+      @include table-align-center();
+    }
   }
 }
